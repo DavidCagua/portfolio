@@ -1,5 +1,13 @@
 .hero {
-  border: 1px solid red;
+  padding-block-start: 16px;
+}
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.hero-social {
+  padding-block-end: 24px;
 }
 .hero-image {
   text-align: center;
