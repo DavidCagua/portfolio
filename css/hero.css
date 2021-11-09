@@ -20,3 +20,25 @@
   font: var(--headline5);
   display: block;
 }
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: flex;
+    gap: 32px;
+  }
+  .hero-description {
+    order: 1;
+    max-inline-size: 450px;
+  }
+  .hero-image {
+    flex: 1;
+    text-align: end;
+    order: 2;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero-image img {
+    width: 500px;
+    height: 504px;
+  }
+}
