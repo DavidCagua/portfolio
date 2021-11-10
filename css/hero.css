@@ -6,11 +6,11 @@
   flex-direction: column;
   gap: 16px;
 }
-.hero-social {
-  padding-block-end: 24px;
-}
 .hero-image {
   text-align: center;
+}
+.hero-image img {
+  max-inline-size: 100%;
 }
 .hero h1 {
   font: var(--headline3);

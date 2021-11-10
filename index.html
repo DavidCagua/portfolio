@@ -14,24 +14,28 @@
     />
   </head>
   <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-content">
+          <img src="./Images/logo.png" width="69" height="20" alt="logo" />
+          <nav class="menu">
+            <ul>
+              <li>
+                <a class="is-active" href="#main">Hola</a>
+              </li>
+              <li>
+                <a href="#project">Proyectos</a>
+              </li>
+              <li>
+                <a href="#contact">Hablemos</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="button">Curriculum</button>
+        </div>
+      </div>
+    </header>
     <div class="wrapper">
-      <header class="header">
-        <img src="./Images/logo.png" width="69" height="20" alt="logo" />
-        <nav class="menu">
-          <ul>
-            <li>
-              <a class="is-active" href="#main">Hola</a>
-            </li>
-            <li>
-              <a href="#project">Proyectos</a>
-            </li>
-            <li>
-              <a href="#contact">Hablemos</a>
-            </li>
-          </ul>
-        </nav>
-        <button class="button">Curriculum</button>
-      </header>
       <section class="hero">
         <div class="hero-image">
           <img src="./Images/user.png" width="338" height="330" alt="" />
@@ -45,7 +49,7 @@
             Frontend Developer que le encanta implementar diseños que inspiran y
             atraen a las personas.
           </p>
-          <div class="hero-social">
+          <div class="social">
             <a class="button-icon" href="tel:3177000722"
               ><img src="./icons/icon-phone.svg"
             /></a>
@@ -62,6 +66,152 @@
           <a href="" class="button">Descargar Curriculum</a>
         </div>
       </section>
+      <section class="comment">
+        <h1>
+          <span
+            >A lo largo de mi carrera como Frontend, he tenido el privilegio de
+            trabajar en proyectos retadores e increíbles</span
+          >
+          <span>Aquí hay algunos que me gustaría compartir.</span>
+        </h1>
+        <a href="#"><img src="./icons/icons-down.svg" /></a>
+      </section>
+      <div class="project">
+        <div class="project-image">
+          <img src="./Images/leo.png" alt="" />
+        </div>
+        <div class="project-description">
+          <a class="title" target="_blank" href="https://leonidasesteban.com/"
+            >Leonidasesteban</a
+          >
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <a
+            target="_blank"
+            href="https//:github.com"
+            class="button is-secondary"
+            >Code</a
+          >
+          <a target="_blank" href="https://leonidasesteban.com/" class="button"
+            >Proyecto</a
+          >
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-image">
+          <img src="./Images/marvol.png" alt="" />
+        </div>
+        <div class="project-description">
+          <a class="title" target="_blank" href="https://leonidasesteban.com/"
+            >Leonidasesteban</a
+          >
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <a
+            target="_blank"
+            href="https//:github.com"
+            class="button is-secondary"
+            >Code</a
+          >
+          <a target="_blank" href="https://leonidasesteban.com/" class="button"
+            >Proyecto</a
+          >
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-image">
+          <img src="./Images/netnet.png" alt="" />
+        </div>
+        <div class="project-description">
+          <a class="title" target="_blank" href="https://leonidasesteban.com/"
+            >Leonidasesteban</a
+          >
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <a
+            target="_blank"
+            href="https//:github.com"
+            class="button is-secondary"
+            >Code</a
+          >
+          <a target="_blank" href="https://leonidasesteban.com/" class="button"
+            >Proyecto</a
+          >
+        </div>
+      </div>
+      <form action="" method="GET" class="form">
+        <div class="form-content">
+          <h2 class="title">Hablemos</h2>
+          <p>
+            Si está interesado en trabajar conmigo en su próximo proyecto, no
+            dude en ponerse en contacto conmigo.
+          </p>
+          <label for="form-name"
+            >Nombre completo
+            <input
+              name="name"
+              id="form-name"
+              type="text"
+              placeholder="Nombre completo"
+              required
+            />
+          </label>
+          <label for="form-name"
+            >Email
+            <input
+              name="name"
+              id="form-name"
+              type="email"
+              placeholder="Email"
+              required
+            />
+          </label>
+          <label for="form-name"
+            >Mensaje
+
+            <textarea
+              name="message"
+              id="form-message"
+              cols="30"
+              rows="7"
+              placeholder="Mensaje"
+              required
+            ></textarea>
+          </label>
+          <button class="button" type="submit">Enviar mensaje</button>
+        </div>
+      </form>
+      <footer class="footer" id="contact">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="./Images/logo.png" width="69" height="20" alt="logo" />
+          </div>
+          <div class="social">
+            <a class="button-icon" href="tel:3177000722"
+              ><img src="./icons/icon-phone.svg"
+            /></a>
+            <a class="button-icon" href="tel:3177000722"
+              ><img src="./icons/icon-important_mail.svg"
+            /></a>
+            <a class="button-icon" href="tel:3177000722"
+              ><img src="./icons/icon-instagram.svg"
+            /></a>
+            <a class="button-icon" href="tel:3177000722"
+              ><img src="./icons/icon-twitter_squared.svg"
+            /></a>
+          </div>
+          <div class="footer-copyright">
+            <p>Hecho por David Caguazango.</p>
+            <p>Copyright 2021 - Todos los derechos reservados. Copy</p>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
