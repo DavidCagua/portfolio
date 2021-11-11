@@ -11,6 +11,8 @@
 }
 .hero-image img {
   max-inline-size: 100%;
+  width: 330px;
+  height: 330px;
 }
 .hero h1 {
   font: var(--headline3);
@@ -32,13 +34,13 @@
   }
   .hero-image {
     flex: 1;
-    text-align: end;
+    text-align: center;
     order: 2;
   }
 }
 @media screen and (min-width: 1024px) {
   .hero-image img {
-    width: 500px;
-    height: 504px;
+    width: 420px;
+    height: 420px;
   }
 }

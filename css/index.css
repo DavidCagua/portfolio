@@ -27,8 +27,8 @@
       #747de9 0%,
       rgba(255, 255, 255, 0) 100%
     ),
-    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
-  --purple: #310a90;
+    linear-gradient(135deg, #020d0e 0%, #01010e 100%);
+  --purple: #c30a46;
   --green: #42e2b8;
   --white: white;
 }
@@ -36,6 +36,6 @@ body {
   background: var(--gradient);
   min-block-size: 100vh;
   font: var(--body1);
-  color: var(--purple);
+  color: var(--white);
   margin: 0px;
 }
