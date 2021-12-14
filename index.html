@@ -14,16 +14,18 @@
     />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="wrapper">
         <div class="header-content">
-          <img
-            class="logo"
-            src="./Images/logo.svg"
-            width="250"
-            height="250"
-            alt="logo"
-          />
+          <a class="is-active" href="/">
+            <img
+              class="logo"
+              src="./Images/logo.svg"
+              width="250"
+              height="250"
+              alt="logo"
+            />
+          </a>
           <nav class="menu">
             <ul>
               <li>
@@ -37,7 +39,12 @@
               </li>
             </ul>
           </nav>
-          <button class="button">Curriculum</button>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1PJkz5BtIGa86Z2qrqYYYRE_3SCLvF_ah/view?usp=sharing"
+          >
+            <button class="button">Curriculum</button>
+          </a>
         </div>
       </div>
     </header>
@@ -56,20 +63,31 @@
             functional designs and provide solutions.
           </p>
           <div class="social">
-            <a class="button-icon" href="tel:3177000722"
+            <a class="button-icon" href="tel:+573177000722"
               ><img src="./icons/icon-phone.svg"
             /></a>
-            <a class="button-icon" href="tel:3177000722"
+            <a class="button-icon" href="mailto:dfcaguazango@gmail.com"
               ><img src="./icons/icon-important_mail.svg"
             /></a>
-            <a class="button-icon" href="tel:3177000722"
-              ><img src="./icons/icon-instagram.svg"
+            <a
+              class="button-icon"
+              target="_blank"
+              href="https://www.linkedin.com/in/david-felipe-caguazango-pulistar-9ab38010a/"
+              ><img src="./icons/linkedin.svg"
             /></a>
-            <a class="button-icon" href="tel:3177000722"
-              ><img src="./icons/icon-twitter_squared.svg"
+            <a
+              target="_blank"
+              class="button-icon"
+              href="https://api.whatsapp.com/send?phone==573177000722"
+              ><img src="./icons/whatsapp.svg"
             /></a>
           </div>
-          <a href="" class="button">Download Curriculum</a>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1PJkz5BtIGa86Z2qrqYYYRE_3SCLvF_ah/view?usp=sharing"
+            class="button"
+            >Download Curriculum</a
+          >
         </div>
       </section>
       <section class="comment">
@@ -84,51 +102,54 @@
       </section>
       <div class="project" id="project">
         <div class="project-image">
-          <img src="./Images/leo.png" alt="" />
+          <img src="./Images/img.png" alt="" />
         </div>
         <div class="project-description">
           <a class="title" target="_blank" href="https://leonidasesteban.com/"
-            >Leonidasesteban</a
+            >Company Validation</a
           >
           <p>
-            Accede a más de 120 proyectos que te ayudarán a mejorar tus
-            habilidades como desarrollador Front-End.
+            MERN full-stack project, companie's requests are displayed so
+            the user can either accept or reject them.
           </p>
           <a
             target="_blank"
-            href="https//:github.com"
+            href="https://github.com/DavidCagua/company-validation"
             class="button is-secondary"
             >Code</a
           >
-          <a target="_blank" href="https://leonidasesteban.com/" class="button"
+          <a
+            target="_blank"
+            href="https://infallible-hodgkin-e37ced.netlify.app/"
+            class="button"
             >Proyecto</a
           >
         </div>
       </div>
       <div class="project">
         <div class="project-image">
-          <img src="./Images/marvol.png" alt="" />
+          <img src="./Images/ipad.png" alt="" />
         </div>
         <div class="project-description">
           <a class="title" target="_blank" href="https://leonidasesteban.com/"
-            >Leonidasesteban</a
+            >Countries API</a
           >
-          <p>
-            Accede a más de 120 proyectos que te ayudarán a mejorar tus
-            habilidades como desarrollador Front-End.
-          </p>
+          <p>React Front-End challenge from Frontedmentor .com, API requests are handled and reducer is used.</p>
           <a
             target="_blank"
-            href="https//:github.com"
+            href="https://github.com/DavidCagua/countries-api"
             class="button is-secondary"
             >Code</a
           >
-          <a target="_blank" href="https://leonidasesteban.com/" class="button"
+          <a
+            target="_blank"
+            href="https://unruffled-pike-d0e972.netlify.app/"
+            class="button"
             >Proyecto</a
           >
         </div>
       </div>
-      <div class="project">
+      <!-- <div class="project">
         <div class="project-image">
           <img src="./Images/netnet.png" alt="" />
         </div>
@@ -150,12 +171,14 @@
             >Proyecto</a
           >
         </div>
-      </div>
-      <form action="" method="GET" class="form" id="contact">
+      </div> -->
+      <form  
+      action="https://formspree.io/f/mwkykrey"
+        method="POST" class="form" id="contact">
         <div class="form-content">
           <h2 class="title">Let's talk!</h2>
           <p>
-            I am up to start working with you, do not hesitate to hit me up.
+            I am up to start working on new projects, do not hesitate to hit me up.
           </p>
           <label for="form-name"
             >Name
@@ -199,40 +222,47 @@
             <img src="./Images/logo.svg" width="250" height="250" alt="logo" />
           </div>
           <div class="social">
-            <a class="button-icon" href="tel:3177000722"
+              <a class="button-icon" href="tel:+573177000722"
               ><img src="./icons/icon-phone.svg"
             /></a>
-            <a class="button-icon" href="tel:3177000722"
+            <a class="button-icon" href="mailto:dfcaguazango@gmail.com"
               ><img src="./icons/icon-important_mail.svg"
             /></a>
-            <a class="button-icon" href="tel:3177000722"
-              ><img src="./icons/icon-instagram.svg"
+            <a
+              class="button-icon"
+              target="_blank"
+              href="https://www.linkedin.com/in/david-felipe-caguazango-pulistar-9ab38010a/"
+              ><img src="./icons/linkedin.svg"
             /></a>
-            <a class="button-icon" href="tel:3177000722"
-              ><img src="./icons/icon-twitter_squared.svg"
+            <a
+              target="_blank"
+              class="button-icon"
+              href="https://api.whatsapp.com/send?phone==573177000722"
+              ><img src="./icons/whatsapp.svg"
             /></a>
           </div>
           <div class="footer-copyright">
             <p>By David Caguazango.</p>
             <p>Copyright 2021 - Todos los derechos reservados. Copy</p>
           </div>
+          </div>
         </div>
       </footer>
     </div>
     <script>
       const $form = document.querySelector("#contact");
-      const $buttonMailto = document.querySelector("#mailto");
       $form.addEventListener("submit", handleSubmit);
-      function handleSubmit(event) {
+      async function handleSubmit(event) {
         event.preventDefault();
         const form = new FormData(this);
-        $buttonMailto.setAttribute(
-          "href",
-          `mailto:dfcaguazango@gmail.com?subject=${form.get("name")}${form.get(
-            "email"
-          )}&body=${form.get("message")}`
-        );
-        $buttonMailto.click();
+        const response=await fetch(this.action,{method:this.method, body:form, headers:{
+          'Accept':'application/json'
+          }
+        });
+        if(response.ok){
+          this.reset();
+          alert('Thanks for contacting me I will reply in short')
+        }
       }
     </script>
   </body>
